@@ -1,0 +1,11 @@
+frontend run = firstly go to the frontend folder(cd frontend)
+then run a command in console(npm run dev)
+
+backend = go to the backend folder
+then run command in console(npm start)
+
+
+http://localhost:4001/user/signup //route
+http://localhost:4001/user/login //route
+
+http://localhost:4001/book //route

@@ -34,7 +34,7 @@ function Banner() {
             </label>
           </div>
           <button className="bg-violet-700 text-white hover:bg-violet-800 h-12 w-32 mt-6 rounded-lg">
-            Login
+            Get Started
           </button>
         </div>
         <div className="order-1 w-full md:w-1/2">
