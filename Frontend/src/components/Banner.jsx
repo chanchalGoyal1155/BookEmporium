@@ -17,7 +17,7 @@ function Banner() {
               topics. Join us on this journey of learning and discovery, one
               book at a time.
             </p>
-            <label className="input input-bordered flex items-center gap-2">
+            <label className="input input-bordered flex items-center gap-2  dark:bg-slate-700 dark:text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
@@ -28,7 +28,7 @@ function Banner() {
               </svg>
               <input
                 type="text"
-                className="grow"
+                className="grow  "
                 placeholder="Enter your email here"
               />
             </label>

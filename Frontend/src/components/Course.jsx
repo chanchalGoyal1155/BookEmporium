@@ -19,7 +19,7 @@ function Course() {
   }, []);
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
+      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 ">
         <div className="mt-16 py-8 items-center  justify-center text-center">
           <h1 className="text-2xl md:text-4xl">
             We're Delighted to have you{" "}
@@ -34,7 +34,7 @@ function Course() {
             dicta nostrum?
           </p>
           <Link to="/">
-            <button className=" mt-6 bg-purple-800 text-white px-4 py-2 rounded-md hover:bg-purple-900 duration-300">
+            <button className=" mt-6 bg-purple-800 text-white px-4 py-2 rounded-md hover:bg-purple-900 duration-300 ">
               Back
             </button>
           </Link>

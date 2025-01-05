@@ -44,25 +44,25 @@ function Login() {
     <>
       <div>
         <dialog id="my_modal_3" className="modal">
-          <div className="modal-box">
+          <div className="modal-box  dark:bg-slate-800 dark:text-white">
             <form onSubmit={handleSubmit(onSubmit)} method="dialog">
               {/* if there is a button in form, it will close the modal */}
               <Link
                 to="/"
-                className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2  dark:bg-slate-900 dark:text-white"
                 onClick={() => document.getElementById("my_modal_3").close()}>
                 ✕
               </Link>
 
               <h3 className="font-bold text-lg">Login</h3>
               {/* Email */}
-              <div className="mt-4 space-y-2">
+              <div className="mt-4 space-y-2 ">
                 <span>Email</span>
                 <br />
                 <input
                   type="email"
                   placeholder="Enter yor email"
-                  className="w-80 px-3 py-1 border rounded-md outline-none"
+                  className="w-80 px-3 py-1 border rounded-md outline-none  dark:bg-slate-800 dark:text-white"
                   {...register("email", { required: true })}
                 />
                 <br />
@@ -79,7 +79,7 @@ function Login() {
                 <input
                   type="password"
                   placeholder="Enter yor psw"
-                  className="w-80 px-3 py-1 border rounded-md outline-none"
+                  className="w-80 px-3 py-1 border rounded-md outline-none  dark:bg-slate-800 dark:text-white"
                   {...register("password", { required: true })}
                 />
                 <br />
@@ -93,7 +93,7 @@ function Login() {
               <div className="flex justify-around mt-4">
                 <button
                   type="submit"
-                  className="bg-violet-500 text-white rounded-md px-3 py-1 hover:bg-violet-700 duration-200">
+                  className="bg-violet-500 text-white rounded-md px-3 py-1 hover:bg-violet-700 duration-200 ">
                   Login
                 </button>
                 <p>
